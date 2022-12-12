@@ -8,7 +8,8 @@ module.exports = {
       },
       gridTemplateColumns:{
         "grid-card" : "repeat(auto-fit, minmax(20rem, 1fr))",
-        "footer-card" : "repeat(auto-fit, minmax(15rem, 1fr))"
+        "footer-card" : "repeat(auto-fit, minmax(15rem, 1fr))",
+        "technology-icon" : "repeat(auto-fit, minmax(5rem, 1fr))"
       },
       borderRadius:{
         "cus_radius" : "2rem",

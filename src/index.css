@@ -90,7 +90,7 @@
     z-index: -1;
 }
 .card:hover::after,.card:hover::before{
-    width: 50%;
+    width: 51%;
 }
 
 
