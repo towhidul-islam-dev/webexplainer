@@ -4,19 +4,40 @@
 
 @import "tailwindcss/utilities";
 
-/* 
-#14342B
-#60935D
-#BAB700
-#BBDFC5
-#FF579F
- */
 
+.footer_container{
+    @apply relative flex items-center justify-center flex-col bg-color-4 pt-56 mt-72;
+}
+.footer_title {
+    @apply text-2xl font-bold capitalize mb-12 text-left text-[#ffffff];
+}
+.footer_links{
+    @apply text-left capitalize text-xl leading-8;
+}
+.footer_card{
+    @apply p-4 rounded-lg drop-shadow-lg sm:drop-shadow-none bg-gradient-to-tr from-[#BBDFC5] to-[#FF579F] md:bg-none md:p-0;
+}
+.footer_card_container{
+    @apply list-none w-full max-w-7xl grid grid-cols-footer-card gap-4 sm:px-2;
+}
+.footer_copyright_container{
+    @apply pb-6 pt-6  w-full max-w-7xl mt-20 border-t-2  border-gray-100;
+}
+.stack_card{
+    @apply rounded-tl-cus_radius-big rounded-br-cus_radius-big w-full max-w-5xl absolute top-0 left-2/4 flex items-center justify-between gap-12 bg-[#14342B] p-24 text-gray-100;
+}
+.stack_button{
+    @apply cursor-pointer uppercase font-bold bg-[#BBDFC5] rounded-tr-cus_radius rounded-bl-cus_radius px-10 py-4 text-[#14342B];
+}
+.align_card{
+    transform: translate(-50%, -50%);
 
+}
 .border_animate{
     /* background-color: #ff4489; */
     padding-block: .5rem;
     position: relative;
+
 }
 .border_animate::after{
     content: "";
@@ -70,4 +91,28 @@
 }
 .card:hover::after,.card:hover::before{
     width: 50%;
+}
+
+
+/* ! Header Section */
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(109% + 1.3px);
+    height: 171px;
+    transform: rotateY(180deg);
+}
+
+.wave .shape-fill {
+    fill: #ffffff;
 }

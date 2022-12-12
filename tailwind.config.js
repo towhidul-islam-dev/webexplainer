@@ -7,7 +7,19 @@ module.exports = {
         'gradient-to-lr': 'linear-gradient(to left, #60935D, #FF579F)',
       },
       gridTemplateColumns:{
-        "grid-card" : "repeat(auto-fit, minmax(20rem, 1fr))"
+        "grid-card" : "repeat(auto-fit, minmax(20rem, 1fr))",
+        "footer-card" : "repeat(auto-fit, minmax(15rem, 1fr))"
+      },
+      borderRadius:{
+        "cus_radius" : "2rem",
+        "cus_radius-big" : "3rem"
+      },
+      colors:{
+        "color-1":"#14342B",
+        "color-2":"#60935D",
+        "color-3":"#BAB700",
+        "color-4":"#BBDFC5",
+        "color-5":"#FF579F",
       }
     },
   },
