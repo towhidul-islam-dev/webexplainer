@@ -7,9 +7,9 @@ const Footer = () => {
     <>
     <div className='footer_container'>
         <div className='align_card stack_card'>
-            <div>
-                <h2 className='text-left capitalize text-5xl font-extrabold'>have an idea?</h2>
-                <p className='text-light capitalize mt-4 text-left'>let's make someting together. drop a line to....</p>
+            <div className=''>
+                <h2 className='text-center md:text-left capitalize text-5xl font-extrabold'>have an idea?</h2>
+                <p className='text-center md:text-left text-light capitalize mt-4 '>let's make someting together. drop a line to....</p>
             </div>
             <div>
                 <button className='stack_button'>let's talk</button>

@@ -18,13 +18,13 @@
     @apply p-4 rounded-lg drop-shadow-lg sm:drop-shadow-none bg-gradient-to-tr from-[#BBDFC5] to-[#FF579F] md:bg-none md:p-0;
 }
 .footer_card_container{
-    @apply list-none w-full max-w-7xl grid grid-cols-footer-card gap-4 lg:gap-8 xl:gap-12 sm:px-2;
+    @apply list-none w-11/12 max-w-7xl grid grid-cols-footer-card gap-4 lg:gap-8 xl:gap-12 sm:px-2;
 }
 .footer_copyright_container{
     @apply pb-6 pt-6  w-full max-w-7xl mt-20 border-t-2  border-gray-100;
 }
 .stack_card{
-    @apply rounded-tl-cus_radius-big rounded-br-cus_radius-big w-full max-w-5xl absolute top-0 left-2/4 flex items-center justify-between gap-12 bg-[#14342B] p-24 text-gray-100;
+    @apply rounded-tl-cus_radius-big rounded-br-cus_radius-big w-4/5 max-w-5xl absolute top-0 left-2/4 flex items-center flex-col md:justify-between md:flex-row gap-12 bg-[#14342B] p-12 md:p-24 text-gray-100;
 }
 .stack_button{
     @apply cursor-pointer uppercase font-bold bg-[#BBDFC5] rounded-tr-cus_radius rounded-bl-cus_radius px-10 py-4 text-[#14342B];
@@ -116,3 +116,98 @@
 .wave .shape-fill {
     fill: #ffffff;
 }
+.lable{
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #1ed8a3;
+    font-size: 1.1rem;
+    transform: translate(50px, 0px , 0px, 0px);
+}
+
+@keyframes lable_animation {
+    0%{
+        transform: translateY();
+    }
+}
+
+
+/* ? About Page */
+.exp_card{
+    @apply bg-[#ffff] rounded-tl-lg rounded-bl-cus_radius rounded-br-lg rounded-tr-cus_radius  flex items-center flex-col justify-center p-4 py-10 drop-shadow-xl scale-100 hover:scale-110 transition-all hover:rotate-6 duration-300 cursor-auto;
+}
+.exp_title{
+    @apply text-2xl lg:text-4xl font-extrabold mb-3;
+}
+
+.exp_sub_title{
+    @apply text-base font-bold text-color-1 capitalize;
+}
+.member{
+    border: 2px solid transparent;
+    animation: animate_member 50s ease-in-out infinite alternate-reverse;
+    transform: scale(1);
+    transition: animation 50s ease-in-out , border 300ms ease-in;
+}
+.member:hover{
+    transform: scale(1.3);
+    border: 2px solid blue;
+
+}
+@keyframes  animate_member {
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(20px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    75%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateY(-20px);
+    }
+}
+
+/* ? Contact Page */
+.contact_card{
+    @apply bg-gray-100 drop-shadow-lg rounded-md p-10 hover:-translate-y-4 ease-in duration-300;
+}
+.contact_button{
+    @apply capitalize border-4 border-color-1 py-2 px-8 rounded-xl text-color-2 font-bold text-xl;
+}
+
+
+/* ! Popups */
+.links{
+    @apply list-none border-2 border-color-2 cursor-pointer p-1 rounded-lg;
+}
+.pop{
+    z-index: 1;
+}
+.pop::after{
+    content: "";
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #ffffff;
+    top: 100%;
+    left: 25%;
+    transform-origin: top right;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
