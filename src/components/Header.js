@@ -5,8 +5,8 @@ const Header = ({Illustration, title, description}) => {
     <div className='relative flex items-center justify-center h-3/5 bg-gradient-to-bl from-color-3 to-color-5 py-8'>
       <div className='flex items-center justify-between gap-20 w-full max-w-7xl mt-32 mb-60'>
         <div className='text-left'>
-          <h2 className='text-4xl font-bold text-gray-100 mb-6 capitalize'>{title}</h2>
-          <p className='text-white capitalize text-xl'>{description}</p>
+          <h2 className='text-3xl md:text-6xl font-bold text-gray-100 mb-6 capitalize'>{title}</h2>
+          <p className='text-white capitalize text-xl max-w-md'>{description}</p>
         </div>
         <div className="w-96">
           <img src={Illustration} alt="" className='w-full block object-cover' />

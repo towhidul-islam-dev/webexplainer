@@ -7,7 +7,7 @@ module.exports = {
         'gradient-to-lr': 'linear-gradient(to left, #60935D, #FF579F)',
       },
       gridTemplateColumns:{
-        "grid-card" : "repeat(auto-fit, minmax(20rem, 1fr))",
+        "grid-card" : "repeat(auto-fit, minmax(18rem, 1fr))",
         "footer-card" : "repeat(auto-fit, minmax(15rem, 1fr))",
         "technology-icon" : "repeat(auto-fit, minmax(5rem, 1fr))"
       },

@@ -18,7 +18,7 @@
     @apply p-4 rounded-lg drop-shadow-lg sm:drop-shadow-none bg-gradient-to-tr from-[#BBDFC5] to-[#FF579F] md:bg-none md:p-0;
 }
 .footer_card_container{
-    @apply list-none w-full max-w-7xl grid grid-cols-footer-card gap-4 sm:px-2;
+    @apply list-none w-full max-w-7xl grid grid-cols-footer-card gap-4 lg:gap-8 xl:gap-12 sm:px-2;
 }
 .footer_copyright_container{
     @apply pb-6 pt-6  w-full max-w-7xl mt-20 border-t-2  border-gray-100;
