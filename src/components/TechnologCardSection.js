@@ -5,7 +5,7 @@ import TechnologyCard from "./Technology_card"
 import TechnologyCard2 from './TechnologyCard2';
 
 
-import {FaUikit,FaSass,FaLess,FaHtml5,FcGoogle,FaApple,FaDribbble,FaPython,FaGithubSquare,FaCss3Alt,FaReact,FaVuejs,FaPhp,FaLaravel,FaNodeJs,FaSwift,FiFigma, FaSadCry, FaEarlybirds, FaGoogle, FaSketch, FaFigma, FaInvision, FaLinkedin, FaTachometerAlt, FaAndroid, FaAngular} from "react-icons/fa"
+import {FaLess,FaHtml5,FaDribbble,FaPython,FaCss3Alt,FaReact,FaVuejs,FaPhp,FaLaravel,FaNodeJs,FaSwift, FaSadCry, FaEarlybirds, FaGoogle, FaSketch, FaFigma, FaInvision, FaLinkedin, FaTachometerAlt, FaAndroid, FaAngular} from "react-icons/fa"
 import {IoLogoJavascript} from "react-icons/io"
 import {SiTypescript,SiFlutter,SiXcode, SiAbbvie} from "react-icons/si"
 import {DiRuby,DiJava} from "react-icons/di"

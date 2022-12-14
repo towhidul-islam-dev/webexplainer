@@ -11,6 +11,7 @@ module.exports = {
         "technology-card" : "repeat(auto-fit, minmax(18rem, 1fr))",
         "footer-card" : "repeat(auto-fit, minmax(15rem, 1fr))",
         "technology-icon" : "repeat(auto-fit, minmax(5rem, 1fr))",
+        "about_team_members" : "repeat(auto-fit, minmax(10rem, 1fr))",
         "about-exp" : "repeat(auto-fit, minmax(10rem, 1fr))"
       },
       borderRadius:{
