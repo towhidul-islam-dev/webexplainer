@@ -7,7 +7,7 @@ import PopUps from './PopUps';
 const SectionCards = () => {
   return (
     <div className='flex items-center justify-center mt-32'>
-        <div className='grid grid-cols-grid-card gap-8 w-full max-w-7xl px-8 sm:px-0 py-8'>
+        <div className='grid grid-cols-grid-card gap-8 w-11/12 max-w-7xl px-8 sm:px-0 py-8'>
             <div className='relative contact_card'>
                 <div className='grid place-items-center'>
         
