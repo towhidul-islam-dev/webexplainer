@@ -244,8 +244,47 @@
     z-index: -1;
 }
 
+/* ? Nav Links */
+.navLink{
+    animation: navlink 600ms ease-in 1 forwards;
+    transition:  animation 600ms ease-in;
+}
+.navLink2{
+    animation: navlink 600ms ease-in 400ms 1 forwards;
+    transition:  animation 600ms ease-in;
+}
+.navLink3{
+    animation: navlink 600ms ease-in 800ms 1 forwards;
+    transition:  animation 600ms ease-in;
+}
+.navLink4{
+    animation: navlink 600ms ease-in 1200ms  forwards;
+    transition:  animation 600ms ease-in;
+}
 
-
+@keyframes navlink {
+    0%{
+        transform: translateX(-400%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+.nav{
+    animation: navbar 1s ease-in 1 forwards;
+}
+@keyframes navbar {
+    0%{
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
 
 
 

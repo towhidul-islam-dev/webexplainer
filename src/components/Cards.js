@@ -18,7 +18,7 @@ import {CgShapeHexagon} from "react-icons/cg";
 const Cards = () => {
   return (
     <div className='flex items-center justify-center mt-32'>
-        <div className='grid grid-cols-grid-card gap-8 w-full max-w-7xl px-8 sm:px-0 py-8'>
+        <div className='grid grid-cols-grid-card gap-8 px-4 md:px-6 lg:px-0 w-11/12 lg:w-full max-w-7xl sm:px-0 py-8'>
             <div className='relative card bg-gray-100 drop-shadow-lg rounded-md p-10'>
                 <div className='grid place-items-center'>
         

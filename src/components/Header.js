@@ -3,7 +3,7 @@ import React from 'react'
 const Header = ({Illustration, title, description}) => {
   return (
     <div className='relative flex items-center justify-center h-3/5 bg-gradient-to-bl from-color-3 to-color-5 py-8'>
-      <div className='flex items-center justify-between gap-20 w-full max-w-7xl mt-32 mb-60'>
+      <div className='flex items-center justify-between gap-20 flex-col sm:flex-row w-11/12 px-6 md:px-4 lg:px-0 lg:w-full max-w-7xl mt-32 mb-60'>
         <div className='text-left'>
           <h2 className='text-3xl md:text-6xl font-bold text-gray-100 mb-6 capitalize'>{title}</h2>
           <p className='text-white capitalize text-xl max-w-md'>{description}</p>
